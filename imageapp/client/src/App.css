@@ -1,0 +1,42 @@
+/* src/App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* nav {
+  background-color: #333;
+  padding: 10px;
+} */
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery div {
+  margin: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+/* App.css */
+.content {
+  background-image: url('https://example.com/your-image.jpg'); /* Replace with your image URL */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full height */
+  padding: 20px; /* Add some padding */
+}

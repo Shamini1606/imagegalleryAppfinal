@@ -1,0 +1,76 @@
+/* src/styles/Home.css */
+
+.home {
+  font-family: Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to bottom right, #82e480, #0556ee); 
+  height: 100vh; 
+}
+
+.hero {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+
+.cta-button {
+  background-color: #2300eb;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.features {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 30%;
+  margin: 20px 0;
+}
+
+.feature h3 {
+  font-size: 1.8em;
+}
+
+.about {
+  padding: 50px 20px;
+  background-color: rgba(249, 249, 249, 0.9);
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}

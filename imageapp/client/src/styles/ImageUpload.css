@@ -1,0 +1,85 @@
+/* styles/ImageUpload.css */
+
+.upload {
+  background: linear-gradient(to bottom right, #82e480, #0556ee);
+  min-height: 100vh; /* Ensure it covers the full height of the viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(179, 245, 238);
+  text-align: center;
+}
+
+.upload-container h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.upload-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.upload-form input[type="text"],
+.upload-form input[type="file"] {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.upload-form input[type="text"]:focus,
+.upload-form input[type="file"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.upload-form button {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.upload-form button:hover {
+  background-color: #218838;
+}
+
+/* Error message styles */
+.error-message {
+  color: #d9534f;
+  background-color: #f2dede;
+  border: 1px solid #ebccd1;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .upload-container {
+    margin: 20px; /* Reduce margin on smaller screens */
+    padding: 15px; /* Reduce padding on smaller screens */
+  }
+
+  .upload-form input[type="text"],
+  .upload-form input[type="file"],
+  .upload-form button {
+    font-size: 14px; /* Smaller font size on smaller screens */
+  }
+}
